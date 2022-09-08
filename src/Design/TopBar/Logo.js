@@ -9,6 +9,7 @@ export default function Logo() {
           fontFamily: "Pacifico",
           fontSize: "50px",
           color: "red",
+          textShadow: "2px 2px 5px black",
         }}
       >
         Blooming

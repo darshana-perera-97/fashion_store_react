@@ -9,7 +9,7 @@ export default function TopBar() {
     <div
       style={{
         display: "flex",
-        padding: "25px 100px",
+        padding: "15px 100px",
         justifyContent: "space-between",
         backgroundColor:"#F1F1F1"
       }}

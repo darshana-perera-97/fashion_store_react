@@ -1,4 +1,5 @@
 import Design from "./Design/Design";
+import "./App.css";
 
 function App() {
   return (
