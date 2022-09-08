@@ -5,8 +5,8 @@
     margin:0
 }
 #menuBarLink:hover{
-    color: rgb(255, 0, 0);
+    /* color: rgb(255, 0, 0); */
     letter-spacing: 1px;
     font-weight: bold;
-    text-shadow:2px 2px 5px white
+    /* text-shadow:2px 2px 5px white */
 }
