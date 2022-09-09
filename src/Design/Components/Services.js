@@ -9,15 +9,15 @@ import i6 from "./images/shop.png";
 export default function Services() {
   return (
     <div style={{ padding: "30px 0px" }}>
+      <br />
+      <br />
+      <hr />
       <p
         style={{
           textAlign: "center",
-          margin: "20px 0px",
-          fontSize: "25px",
           fontWeight: "bold",
-          color: "white",
-          background: "red",
-          padding: "5px ",
+          marginTop: "20px",
+          fontSize: "30px",
         }}
       >
         Services
