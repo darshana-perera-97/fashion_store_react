@@ -1,11 +1,14 @@
 let items = [
   {
-    catogery: "tshirt",
-    name: "Branded Tshirt",
+    catogery: "men",
+    name: "Striped Shirt",
     price: 1000,
-    itemCode: "t01",
+    itemCode: "m01",
     discounts: 5,
-    img: "t1",
+    imgLink:
+      "https://d1hj68zhrbkzii.cloudfront.net/wp-content/uploads/2022/07/0202205484YL-2_mens_Shirt_Fashion_Bug_Sri_Lanka.jpg",
+    size: ["S", "M"],
+    clrs: ["red", "yellow", "blue"],
   },
 ];
 
