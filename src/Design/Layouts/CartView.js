@@ -15,6 +15,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 });
 
 export default function CartView() {
+  
   const [open, setOpen] = React.useState(false);
 
   const handleClickOpen = () => {
@@ -59,6 +60,7 @@ export default function CartView() {
           </Toolbar>
         </AppBar>
         <CartList />
+        
       </Dialog>
     </div>
   );

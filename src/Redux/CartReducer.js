@@ -1,4 +1,4 @@
-let cartInitial = [{ itemCode: "01", items: 10 }];
+let cartInitial = [];
 
 function CartReducer(store = cartInitial, action) {
   switch (action.type) {
@@ -8,6 +8,7 @@ function CartReducer(store = cartInitial, action) {
         {
           itemCode: action.payload.itemCode,
           items: action.payload.items,
+          price: action.payload.price,
         },
       ];
     case "DELETE_ORDER":
@@ -19,4 +20,4 @@ function CartReducer(store = cartInitial, action) {
   }
 }
 
-export default CartReducer
+export default CartReducer;

@@ -1,9 +1,10 @@
-export function createOrder(itemCode, items) {
+export function createOrder(itemCode, items, price) {
   return {
     type: "CREATE_ORDER",
     payload: {
       itemCode: itemCode,
       items: items,
+      price: price,
     },
   };
 }

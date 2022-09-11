@@ -8,8 +8,14 @@ export default function ItemContents(val) {
   // console.log(val.data.itemCode)
   const addCart = () => {
     if (no != 0) {
-      dispatch(createOrder(val.data.itemCode, no));
-      window.alert("Item Added to Cart")
+      dispatch(
+        createOrder(
+          val.data.name,
+          no,
+          ((val.data.price * (100 - val.data.discounts)) / 100) * no
+        )
+      );
+      window.alert("Item Added to Cart");
     }
   };
   // console.log(val.data);
