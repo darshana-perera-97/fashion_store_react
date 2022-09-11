@@ -12,7 +12,7 @@ export default function MenuBar() {
       }}
     >
       <Link to="/" id="menuBarLink">Home</Link>
-      <Link to="/new" id="menuBarLink">New Arivals</Link>
+      <Link to="/all" id="menuBarLink">All Items</Link>
       <Link to="/men" id="menuBarLink">Men</Link>
       <Link to="/women" id="menuBarLink">Women</Link>
       <Link to="/kids" id="menuBarLink">Kids & Babies</Link>
